@@ -38,7 +38,7 @@ export class CategoryComponent {
 
   public selectCategory(index: number): void {
     this.action = this.actions[index];
-    this.spokenService.say(this.action.speech).then(
+    this.spokenService.speak(this.action.speech).then(
       (speech) => {
         if(!this.action.actions) {
           this.lastSelected.emit(true);

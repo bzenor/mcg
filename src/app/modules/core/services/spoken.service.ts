@@ -4,18 +4,20 @@
  *******************************/
 import { Injectable } from '@angular/core';
 
+import spoken from '../../../../../node_modules/spoken/build/spoken.js';
+
 /********************************
  * Injectable declaration
  *******************************/
 @Injectable()
 export class SpokenService {
 
-  private spoken = window['spoken'];
+  private spoken = spoken || null;
 
   constructor() {
   }
 
-  public say(words: string) {
-    return this.spoken.say(words);
+  public speak(words: string) {
+    return this.spoken.say(words, 'Google UK English Female');
   }
 }

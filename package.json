@@ -15,6 +15,7 @@
     "@angular/router": "7.0.x",
     "core-js": "2.5.x",
     "rxjs": "6.3.x",
+    "spoken": "^1.1.17",
     "zone.js": "0.8.x"
   },
   "scripts": {
