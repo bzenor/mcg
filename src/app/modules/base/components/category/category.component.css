@@ -1,0 +1,12 @@
+mat-grid-list {
+  height: 100vh;
+}
+
+mat-grid-tile {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.mat-button {
+  width: 99%;
+  height: 99%;
+}

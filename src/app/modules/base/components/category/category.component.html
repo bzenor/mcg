@@ -1,0 +1,9 @@
+<mat-grid-list *ngIf="!action" cols="2" rowHeight="fit" gutterSize="0">
+  <mat-grid-tile *ngFor="let key of keys; index as i">
+    <button mat-button (click)="selectCategory(i)">
+      <img *ngIf="actions[i]?.image" src="{{ actions[i]?.image }}" width="70%" height="70%">
+      <h1>{{ key }}</h1>
+    </button>
+  </mat-grid-tile>
+</mat-grid-list>
+<category *ngIf="action?.actions" [config]="action.actions" (lastSelected)="closeSelected($event)"></category>

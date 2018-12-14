@@ -1,0 +1,129 @@
+{
+  "actions": [
+    {
+      "title": "Have",
+      "image": "",
+      "speech": "",
+      "actions": [
+        {
+          "title": "Brush teeth",
+          "image": "https://img.huffingtonpost.com/asset/5988ad771400002000ecf8ca.jpeg?ops=scalefit_720_noupscale",
+          "speech": "I have to brush my teeth"
+        },
+        {
+          "title": "Shower",
+          "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/05/08/13/woman-in-shower-0.jpg?w968",
+          "speech": "I have to take a shower"
+        },
+        {
+          "title": "Take medicine",
+          "image": "https://www.hindustantimes.com/rf/image_size_960x540/HT/p2/2018/03/28/Pictures/senior-man-taking-prescription-medicines_84a96fbc-3257-11e8-8c5f-3c6cc031651e.jpg",
+          "speech": "I have to take my medicine"
+        },
+        {
+          "title": "Cut nails",
+          "image": "https://aos-jdxocuc.netdna-ssl.com/wp-content/uploads/2012/06/nail-cutting.jpg",
+          "speech": "I have to cut my nails"
+        }
+      ]
+    },
+    {
+      "title": "Need",
+      "image": "",
+      "speech": "",
+      "actions": [
+        {
+          "title": "Restroom",
+          "image": "https://cfvod.kaltura.com/p/797802/sp/79780200/thumbnail/entry_id/0_oj2ugrvb/version/100012/width/200",
+          "speech": "I need to go to the bathroom"
+        },
+        {
+          "title": "Eat",
+          "image": "https://www.momjunction.com/wp-content/uploads/2014/05/pizza.jpg",
+          "speech": "I need to eat some food"
+        },
+        {
+          "title": "Sleep",
+          "image": "https://www.safetyandhealthmagazine.com/ext/resources/images/2018/07-july/sleep.jpg?1528818400",
+          "speech": "I need to sleep"
+        },
+        {
+          "title": "Drink water",
+          "image": "https://img.etimg.com/thumb/msid-63413139,width-643,imgsize-16982,resizemode-4/youve-been-drinking-water-wrong-all-this-while-know-the-right-way.jpg",
+          "speech": "I need to drink some water"
+        }
+      ]
+    },
+    {
+      "title": "Want",
+      "image": "",
+      "speech": "",
+      "actions": [
+        {
+          "title": "Soda",
+          "image": "https://cdn.shopify.com/s/files/1/1511/0050/products/Coke_1024x1024.png",
+          "speech": "",
+          "actions": [
+            {
+              "title": "Coke",
+              "image": "https://cdn.shopify.com/s/files/1/1511/0050/products/Coke_1024x1024.png",
+              "speech": "I want a Coke"
+            },
+            {
+              "title": "Diet Coke",
+              "image": "https://www.coca-cola.co.uk/content/dam/journey/gb/en/private/2018/february/because-i-can3.png",
+              "speech": "I want a Diet Coke"
+            },
+            {
+              "title": "Sprite",
+              "image": "https://www.pandicorp.com/media/com_eshop/products/resized/sprite_PNG8934-600x600.png",
+              "speech": "I want a Sprite"
+            }
+          ]
+        },
+        {
+          "title": "Home",
+          "image": "https://www.wsbradio.com/rf/image_md/Wires/w2/Local_Wsbtv/2018/06/16/Images/770984640_house%25202_1529153807906.jpg_12009876_ver1.0_640_360.jpg",
+          "speech": "I want to go home"
+        },
+        {
+          "title": "Videogames",
+          "image": "https://i0.wp.com/www.psychreg.org/wp-content/uploads/2017/11/gaming-hands.jpeg?resize=728%2C410&ssl=1",
+          "speech": "I want to play videogames"
+        },
+        {
+          "title": "Mom",
+          "image": "https://pdfimages.wondershare.com/forms-templates/article/birthday-wishes-for-mom.jpg",
+          "speech": "I want my mom"
+        }
+      ]
+    },
+    {
+      "title": "Feel",
+      "image": "",
+      "speech": "",
+      "actions": [
+        {
+          "title": "Sick",
+          "image": "https://www.popsci.com/sites/popsci.com/files/styles/655_1x_/public/images/2018/05/woman-sick-blowing-nose.jpg?itok=ay4QKI8G&fc=50,50",
+          "speech": "I feel sick"
+        },
+        {
+          "title": "Tired",
+          "image": "https://www.megandallacamina.com/wp-content/uploads/2017/04/Slide25-400x400.jpg",
+          "speech": "I feel tired"
+        },
+        {
+          "title": "Angry",
+          "image": "https://www.churchtimes.co.uk/media/5610493/h4_angry-man.jpg",
+          "speech": "I feel angry"
+        },
+        {
+          "title": "Sad",
+          "image": "https://dz9yg0snnohlc.cloudfront.net/new-where-to-turn-when-youre-feeling-sad-2a.jpg",
+          "speech": "I feel sad"
+        }
+      ]
+    }
+  ]
+}
