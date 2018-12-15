@@ -12,12 +12,10 @@ import spoken from '../../../../../node_modules/spoken/build/spoken.js';
 @Injectable()
 export class SpokenService {
 
-  private spoken = spoken || null;
-
   constructor() {
   }
 
   public speak(words: string) {
-    return this.spoken.say(words, 'Google UK English Female');
+    return spoken.say(words, 'Google UK English Female');
   }
 }
