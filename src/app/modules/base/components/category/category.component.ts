@@ -20,10 +20,10 @@ import { SpokenService } from '../../../core/services/spoken.service';
  *******************************/
 export class CategoryComponent {
   
-  public speaking: boolean = false;
-  public actions: Action[];
   public action: Action;
+  public actions: Action[];
   public keys: string[] = [];
+  public speaking: boolean = false;
 
   @Input()
   set config(config) {
@@ -37,18 +37,21 @@ export class CategoryComponent {
   }
 
   public selectCategory(index: number): void {
-    this.action = this.actions[index];
-    this.spokenService.speak(this.action.speech).then(
-      (speech) => {
-        if(!this.action.actions) {
-          this.lastSelected.emit(true);
-        }
-      }
-    );
+    if(this.actions[index]) {
+      this.action = this.actions[index];
+      this.spokenService.speak(this.action.speech).then((speech) => this.hasSpoken(speech));
+    }
   }
 
+  
   public closeSelected(last: boolean) {
     this.action = undefined;
     this.lastSelected.emit(last);
+  }
+
+  private hasSpoken(speech) {
+    if(!this.action.actions) {
+      this.lastSelected.emit(true);
+    }
   }
 }

@@ -6,16 +6,18 @@ import { Injectable } from '@angular/core';
 
 import spoken from '../../../../../node_modules/spoken/build/spoken.js';
 
+import { AppConfig } from '../../../app.config';
+
 /********************************
  * Injectable declaration
  *******************************/
 @Injectable()
 export class SpokenService {
 
-  constructor() {
+  constructor(private config: AppConfig) {
   }
 
   public speak(words: string) {
-    return spoken.say(words, 'Google UK English Female');
+    return spoken.say(words, this.config.voice);
   }
 }

@@ -9,6 +9,8 @@ import { Injectable } from '@angular/core';
  *******************************/
 @Injectable()
 export class AppConfig {
+  
   public configPath: string = './assets/actions.json';
-}
 
+  public voice: string = 'Google UK English Female';
+}
